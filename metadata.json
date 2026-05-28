@@ -1,0 +1,6 @@
+{
+  "name": "Resilient AI Swarm",
+  "description": "Enterprise-grade autonomous multi-agent orchestration dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

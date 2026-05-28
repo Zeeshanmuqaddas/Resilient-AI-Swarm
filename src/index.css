@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-bg: #050510;
+  --color-cyber-panel: rgba(10, 15, 30, 0.7);
+  --color-cyber-border: rgba(0, 255, 255, 0.2);
+  --color-neon-blue: #00f3ff;
+  --color-neon-purple: #bc13fe;
+  --color-neon-pink: #ff007f;
+  --color-neon-green: #00ff66;
+  --color-neon-warning: #ffbf00;
+  --color-neon-danger: #ff3333;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-cyber-bg);
+  background-image: 
+    linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-position: center center;
+  color: #e0e0e0;
+  font-family: var(--font-sans);
+}
+
+.glass-panel {
+  background: var(--color-cyber-panel);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-cyber-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 255, 255, 0.02);
+}
+
+.glow-text-blue {
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+}
+
+.glow-text-green {
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+}
+
+.glow-text-danger {
+  text-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+}
+
+/* Custom Scrollbar for terminal-like areas */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 255, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 255, 0.5);
+}
