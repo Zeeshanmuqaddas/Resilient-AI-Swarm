@@ -1,3 +1,9 @@
+Resilient AI Swarm is an advanced multi-agent AI orchestration platform designed for scalable, autonomous, and reliable enterprise automation. It uses intelligent failover, self-healing workflows, and multi-LLM coordination to ensure continuous AI operations in production environments.
+
+Resources
+ Readme
+
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
